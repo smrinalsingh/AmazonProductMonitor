@@ -30,5 +30,5 @@ while (True):
         print ("Interrupted.")
         break
 
-    except:
-        pass
+    except Exception as e:
+        print (e)
