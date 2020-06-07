@@ -21,6 +21,7 @@ threshold = 20500.0
 
 while (True):
     try:
+
         for costElement in allCostElems:
             cost = (float)(costElement.text.strip("Rs. ").strip("\xa0").split("Rs. ")[1].replace(",",""))
             allCosts.append(cost)
